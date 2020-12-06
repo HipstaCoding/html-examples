@@ -1,0 +1,25 @@
+.box {
+  border: 5px solid black;
+  width: 80%;
+  height: 150px;
+  margin: 80px 10%;
+}
+
+.after-box-sizing pre {
+  box-sizing: border-box;
+}
+
+.child {
+  color: #e45649;
+  width: 100%;
+  border: 5px solid #e45649;
+  height: 100%;
+  padding: 20px;
+}
+
+/* pre has default margin */
+pre {
+  margin: 0;
+  font-size: 18px;
+  text-align: left;
+}
