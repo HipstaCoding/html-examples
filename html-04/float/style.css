@@ -1,0 +1,14 @@
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 0 1em;
+  background-color: #c57bdd;
+}

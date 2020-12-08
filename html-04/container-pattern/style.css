@@ -1,0 +1,11 @@
+.container {
+  margin: 0 auto;
+  min-width: 240px;
+  max-width: 500px;
+  min-height: 400px;
+  width: 100%;
+}
+
+.highlight {
+  border: 5px solid #c57bdd;
+}

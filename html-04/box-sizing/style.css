@@ -17,9 +17,8 @@
   padding: 20px;
 }
 
-/* pre has default margin */
 pre {
-  margin: 0;
+  margin: 0; /* remove default margin */
   font-size: 18px;
   text-align: left;
 }
