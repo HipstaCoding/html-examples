@@ -1,0 +1,14 @@
+body {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+  /* grid-auto-rows: 200px; */
+}
+
+div {
+  border: 5px solid #c57bdd;
+}
+
+.box-1 {
+  /* grid-column: 1 / 3; */
+}

@@ -1,7 +1,7 @@
 html {
   background-color: #282c34;
   color: white;
-  /* text-align: center; */
+  text-align: center;
   font-size: 24px;
   text-transform: capitalize;
   font-family: "Montserrat", sans-serif;
@@ -18,16 +18,16 @@ footer {
   min-height: 100px;
 }
 
-/* NOT ALL ELEMENTS WITH SAME MARGIN! */
 header,
 nav,
-.flex-container,
 article,
-footer {
+footer,
+.flex-container {
   margin: 20px;
 }
 
-nav {
+.flex-container {
+  display: flex;
 }
 
 header {
@@ -38,19 +38,15 @@ nav {
   background-color: #e44d26;
 }
 
-.flex-container {
-  display: flex;
-}
-
 aside {
   margin-right: 20px;
-  flex-grow: 1;
   background-color: #f7df1e;
+  flex-grow: 1;
 }
 
 main {
-  flex-grow: 3;
   background-color: #e06c75;
+  flex-grow: 3;
 }
 
 article {
