@@ -16,7 +16,18 @@ footer {
   padding-top: 10px;
   border: 5px dashed white;
   min-height: 100px;
+}
+
+header,
+nav,
+article,
+.flex-container,
+footer {
   margin: 20px;
+}
+
+.flex-container {
+  display: flex;
 }
 
 header {
@@ -30,10 +41,12 @@ nav {
 aside {
   margin-right: 20px;
   background-color: #f7df1e;
+  flex-grow: 1;
 }
 
 main {
   background-color: #e06c75;
+  flex-grow: 3;
 }
 
 article {
